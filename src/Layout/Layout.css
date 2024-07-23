@@ -1,0 +1,15 @@
+/* Layout.css */
+.layout {
+    background-color: rgb(252, 251, 251);
+
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    overflow-y: auto;
+}

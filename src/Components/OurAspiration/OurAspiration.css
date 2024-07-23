@@ -1,0 +1,259 @@
+.ourAspiration_Parent {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.ourAspiration_Image {
+    width: 100%;
+    height: auto;
+}
+
+.opportunity {
+    position: absolute;
+    top: 60px; 
+    left: 70px;
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 600;
+    width: 35%;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.Growth_Parent {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.Growth_Sub_Parent {
+    width: 80%;
+    max-width: 1200px;
+}
+
+.Growth_Title {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #333;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+}
+
+.Growth_Sub_Parent p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.Growth_Sub_Parent h2 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.Growth_Sub_Parent ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.Growth_Sub_Parent li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.Growth_Sub_Parent li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #333;
+    font-size: 20px;
+}
+
+.Growth_Sub_Parent strong {
+    font-weight: 600;
+    color: #222;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .section-header h2 {
+    font-size: 28px;
+    font-weight: 600;
+    /* font-family: 'Georgia', 'Times New Roman', serif; */
+    /* color: #333; */
+    margin: 0 15px;  /* This adds space between the text and the images */
+  }
+  
+  .goal_Image {
+    width: 30px;
+    height: auto;
+  } 
+  .weekly-update {
+    font-family: Arial, sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+  }
+  
+  header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  
+  .content-box {
+    background-color: #e6f2ff;
+    display: flex;
+    padding: 60px;
+    border-radius: 0;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  
+  .lightbulb-icon {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lightbulb-icon img {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .text-content {
+    flex: 2;
+    padding-left: 60px;
+    font-size: 24px;
+    text-align: justify;
+   
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: bold;
+  }
+  
+  .video-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  footer {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+
+
+
+
+  .strategic-goals-section {
+    display: flex;
+    background-color: #00263e;
+    color: white;
+  }
+  
+  .content-side {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .goal_Image {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  
+  .section-header h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .strategic-goals-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .strategic-goals-list li {
+    margin-bottom: 20px;
+  }
+  
+  .strategic-goals-list strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #4dabf7;
+  }
+  
+  .strategic-goals-list p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  .learn-more {
+    color: #4dabf7;
+    text-decoration: none;
+    font-weight: bold;
+    align-self: flex-start;
+  }
+  
+  .image-side {
+    flex: 1;
+    background-color: #001a2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-side img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .strategic-goals-section {
+      flex-direction: column;
+    }
+    
+    .content-side, .image-side {
+      width: 100%;
+    }
+  }

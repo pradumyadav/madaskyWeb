@@ -1,0 +1,201 @@
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .leadership-container {
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .leader_Ship_p {
+    font-size: 3.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+    color: #000000;
+    margin-bottom: 10px;
+   
+  }
+  
+  .leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .leader-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+  .leadership-categories_Parent{
+   
+    display: flex;justify-content:center ;
+    align-content: center;
+  }
+
+  .leadership-categories {
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    width: 85%;
+  }
+  
+  .category {
+   
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: flex-start;
+  }
+  .category:hover{
+    box-shadow: 2px 4px 6px rgba(0, 0, 3, 0.2);
+  }
+  
+  .category h2 {
+    font-size:24px;
+    margin-bottom: 15px;
+    color: #000000;
+    font-family: helvetica neue;
+    font-weight: 550;
+  }
+  
+  h2 span {
+    color: #0080ff;
+  }
+  
+  .category p {
+    font-size:16px;
+    line-height: 1.7rem;
+    margin-bottom: 15px;
+    color: #535252;
+    font-family: helvetica neue;
+  }
+  
+  .see-members {
+    display: inline-block;
+    color: #0080ff;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  .see-members span {
+    margin-left: 5px;
+  }
+  .Our_Aspireion_Parent{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .Our_Aspireion_Parent_Top p{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 550;
+  }
+  .Our_Aspireion_Sub_Parent{
+    border-bottom: 1px solid rgb(36, 35, 35);
+    display: flex;
+    width: 85%;
+    padding-bottom:3rem;
+   
+  }
+  .Our_Aspireion_Parent_Left{
+    width: 50%;
+  }
+  .Our_Aspireion_Parent_Right{
+    width: 50%;
+  }
+  .Our_Aspireion_Parent_Right_wrapper{
+   
+   padding:5px 40px;
+    text-align: justify;
+  }
+  .Our_Aspireion_Parent_Right_wrapper_p1{
+    font-size: 40px;
+    font-weight:600 ;
+    font-family: helvetica neue;
+    margin-bottom: 25px;
+  }
+  .Our_Aspireion_Parent_Right_wrapper_p2{
+    
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+
+
+.policy-card_Parent{
+    display: flex;
+    justify-content: center;
+}
+  .policy-card {
+   display: flex;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding-bottom:3rem;
+    border-bottom:1px solid black;
+  }
+  
+  .policy-card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  
+  .policy-card .card-title span {
+    color: #0080ff;
+  }
+  
+  .policy-card .card-text {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 25px;
+  }
+  
+  .policy-card img {
+    height: 150px;
+    object-fit: cover;
+  }

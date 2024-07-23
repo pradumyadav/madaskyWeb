@@ -1,0 +1,199 @@
+
+.Footer_Parent {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Footer_Sub_Parent {
+  
+    width: 85%;
+    display: flex;
+    flex-direction: column
+  }
+  
+  .footer_Logo{
+    
+   position: relative;
+   right:160px;
+   padding: 20px 0px;
+  }
+  
+  .Footer_Middle_Div {
+    border-bottom: 2px solid rgb(219, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-bottom: 2.1rem;
+  }
+  
+  .Footer_Fitrst_Ul {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 14px;
+  }
+  
+  .Footer_Second_Ul {
+    display: flex;
+    font-size: 14px;
+    gap: 1.5rem;
+    justify-content: flex-end;
+  
+  }
+  
+  .Footer_Middle_Div_Left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+  }
+  
+  .Footer_Icons {
+    display: flex;
+    font-size: 1.9rem;
+    gap: 1.5rem;
+    justify-content: flex-end;
+  
+  }
+  
+  .Footer_Middle_Div_Right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+  }
+  
+  .Footetr_Last_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+    height: 110px;
+  }
+  
+  .Footetr_Last_div_Left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  
+  }
+  
+  .Footer_Middle_Div_Left_First_Div {
+    font-size: 23px;
+    font-weight: 500;
+  }
+  
+  .footer_Inp {
+    border: 2px solid black;
+    padding: 0.7rem;
+    margin-right: 15px;
+  }
+  
+  .Footer_Button {
+    background-color: #2251ff;
+    padding: 0.7rem;
+    color: white;
+  
+  }
+  
+  .Footer_Middle_Div_Left_Second_Div {
+    color: #333333
+  }
+  
+  .Footetr_Last_div_Left_First_P {
+    color: #333333;
+  
+  }
+  
+  .Footetr_Last_div_Left_Second_P {
+    color: #333333;
+    font-size: 14px;
+  }
+  
+  .Footer_Google_Play_btn {
+    width: 120px
+  }
+  
+  
+
+/* Mobile view........ */
+
+
+  @media (max-width: 768px) {
+
+
+  .Footer_Sub_Parent {
+    width: 95%;
+  }
+
+  .footer_Logo img {
+    width: 10rem;
+    padding: 2rem 0;
+  }
+
+  .Footer_Middle_Div {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 1.5rem;
+  }
+
+  .Footer_Middle_Div_Left,
+  .Footer_Middle_Div_Right {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .Footer_Middle_Div_Left_First_Div {
+    font-size: 20px;
+  }
+
+  .Footer_Middle_Div_Left_Second_Div {
+    font-size: 14px;
+  }
+
+  .footer_Inp {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .Footer_Button {
+    width: 100%;
+  }
+
+  .Footer_Fitrst_Ul,
+  .Footer_Second_Ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .Footer_Icons {
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+
+  .Footetr_Last_div {
+    flex-direction: column;
+    height: auto;
+    padding: 1.5rem 0;
+    align-items: flex-start;
+  }
+
+  .Footetr_Last_div_Left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .Footer_Google_Play_btn {
+    width: 150px;
+  }
+
+  .Footetr_Last_div_Left_First_P,
+  .Footetr_Last_div_Left_Second_P {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,73 @@
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 125px;
+  z-index: 10;
+  background: linear-gradient(to bottom, #011744 20%, rgba(255, 255, 255, 0)); 
+  padding-top: 15px;
+}
+
+
+
+.group:hover .group-hover:block {
+  display: block;
+}
+
+.group:hover .dropdown-arrow {
+  transform: rotate(180deg); /* Rotate arrow 180 degrees */
+  transition: transform 0.3s; /* Smooth transition */
+}
+
+.bg-custom-radial {
+  width: 100%;
+  min-height: 603px;
+  background: linear-gradient(90deg, #09318e 0%, #1e5bfd 50%, #0893f6 100%);
+  display: flex;
+  align-items: center;
+  height: 550px;
+}
+
+.bg-custom-radial h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.bg-custom-radial p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.bg-custom-radial button {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.bg-custom-radial button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.hover-border-bottom:hover {
+  border-bottom-width: 2px; /* Adjust the width as needed */
+  border-bottom-style: solid;
+}
+/* CSS for dropdown menu styles */
+.group:hover .group-hover\:block {
+  display: block;
+}
+.hover\\:border-bottom:hover {
+  border-bottom: 2px solid white;
+}
+
+
+
+.logo_Section{
+  display: flex;
+  gap:2rem;
+  margin-right: 100px;
+}
+.main_Nav_Bar{
+  color:white;
+  font-size: 14px;
+}

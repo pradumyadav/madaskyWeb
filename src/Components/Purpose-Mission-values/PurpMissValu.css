@@ -1,0 +1,73 @@
+.PurpMissValu_Parent {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PurpMissValu_Sub_Parent {
+
+    display: flex;
+    width: 85%
+}
+
+.PurpMissValu_Left {
+
+    width: 70%;
+}
+
+.PurpMissValu_Left_Wrapper {
+
+    width: 90%;
+}
+
+.PurpMissValu_Right {
+
+    width: 30%;
+}
+
+.first_p {
+    font-size: 49px;
+    font-weight: 550;
+    font-family: helvetica neue;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.first_p2 {
+    /* font-family: helvetica neue; */
+    margin-bottom: 60px;
+    line-height: 25px;
+    font-size: 18.5px;
+}
+
+.first_p3 {
+    /* font-family: helvetica neue; */
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 18.5px;
+}
+
+
+
+.Our_Histopry {
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: helvetica neue;
+    border-top: 1px solid black;
+}
+
+.one {
+    font-size: 25px;
+    padding: 15px 0px;
+    font-weight: 600;
+}
+
+.text {
+    line-height: 25px;
+    font-family: helvetica neue;
+    font-size: 18px;
+    margin-bottom: 20px;
+   
+}
